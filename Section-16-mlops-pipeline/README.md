@@ -103,7 +103,7 @@ python3 ~/environment/utils/repository_validation.py
 
 - Switch to a different branch
 ```
-cd ~/environment/mlops
+cd ~/environment/mlops  # the codecommit repo folder created previuosly
 git checkout -b etl
 cp ~/environment/etl/* .
 ls
