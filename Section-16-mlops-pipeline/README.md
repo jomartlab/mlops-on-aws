@@ -146,7 +146,7 @@ git push --set-upstream origin master
 ```
 - set main branch as default
 ```
-aws codecommit update-default-branch --repository-name mlops --default-branch-name master
+aws codecommit update-default-branch --repository-name mlops --default-branch-name master # specify --region us-west-2
 ```
 # Service Quota Request
 - ml.m5.xlarge, ml.m5.large for processing job usage - region = us-west-2
